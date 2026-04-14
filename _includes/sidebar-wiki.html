@@ -1,7 +1,7 @@
 <div class="sidebar" itemscope itemtype="http://schema.org/BlogPosting">
   <div>
     <ul>
-    {% for item in site.data.sidebar-wiki.nav %}
+    {% for item in include.nav %}
       <li><a href="{{ item.url }}">{{ item.title }}</a>
         {% if item.subnav %}
           {% include sidebar-wiki.html nav=item.subnav %}
