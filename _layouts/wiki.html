@@ -6,10 +6,10 @@
   <body>
 
     {%- include header-wiki.html -%}
+    {% include sidebar-wiki.html nav=site.data.sidebar-wiki.nav %}
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        {% include sidebar-wiki.html nav=page.nav %}
         {{ content }}
       </div>
     </main>
