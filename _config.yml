@@ -19,6 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: ALSXT
+wiki-title: ALSXT Wiki
+docs-title: Documentation
 email: contact@voidwarex.com
 description: Seize the Means of Animation
 domain: voidware-prohibited.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
