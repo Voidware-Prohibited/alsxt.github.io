@@ -4,7 +4,7 @@
     {% for item in site.data.sidebar-wiki.nav %}
       <li><a href="{{ item.url }}">{{ item.title }}</a>
         {% if item.subnav %}
-          {% include nav.html nav=item.subnav %}
+          {% include sidebar-wiki.html nav=item.subnav %}
         {% endif %}
       </li>
     {% endfor %}
